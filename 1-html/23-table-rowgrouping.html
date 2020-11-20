@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>23-table-rowgrouping</title>
+
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid #999;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>테이블 줄 그룹화</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>연도</th>
+                <th>신청사이트수</th>
+                <th>인증사이트수</th>
+                <th>합격률</th>
+            </tr>
+        </thead>
+
+
+        <tfoot>
+            <tr>
+                <td>합계</td>
+                <td>1000</td>
+                <td>700</td>
+                <td>70%</td>
+            </tr>
+        </tfoot>
+
+       <!-- tr*2>th+td*3 -->
+        <tr>
+            <th>2011년</th>
+            <td>500</td>
+            <td>250</td>
+            <td>50%</td>
+        </tr>
+        <tr>
+            <th>2012년</th>
+            <td>200</td>
+            <td>180</td>
+            <td>90%</td>
+        </tr>
+
+
+    </table>
+
+
+
+
+
+</body></html>

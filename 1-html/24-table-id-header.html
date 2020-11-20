@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>24-table-id-header</title>
+    <style>
+        table, tr, th, td {border: 1px solid #232;}
+    </style>
+</head>
+<body>
+    <h1>24-table-id-header</h1>
+
+    <figure>
+    <table>
+       <caption>웹접근성 인증 사이트</caption>
+        <thead>
+        <tr>
+            <th id="year">연도</th>
+            <th id="site1">신청사이트수</th>
+            <th id="site2">인증사이트수</th>
+            <th id="pass">합격률</th>
+        </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>합계</td>
+                <td>1000</td>
+                <td>500</td>
+                <td>50%</td>
+            </tr>
+        </tfoot>
+
+        <tr>
+            <th id="y2014">2014년</th>
+            <td header="y2014 site1">200</td>
+            <td header="y2014 site2">100</td>
+            <td header="y2014 pass">50%</td>
+        </tr>
+        <tr>
+            <th id="y2015">2015년</th>
+            <td header="y2015 site1">100</td>
+            <td header="y2015 site2">0</td>
+            <td header="y2015 pass">0%</td>
+        </tr>
+        <tr>
+            <th id="y2016">2016년</th>
+            <td header="y2016 site1">300</td>
+            <td header="y2016 site2">300</td>
+            <td header="y2016 pass" header="y2014 pass">100%</td>
+        </tr>
+        <tr>
+            <th id="y2017">2017년</th>
+            <td header="y2017 site1">200</td>
+            <td header="y2017 site2">50</td>
+            <td header="y2017 pass">25%</td>
+        </tr>
+        <tr>
+            <th id="y2018">2018년</th>
+            <td header="y2018 site1">200</td>
+            <td header="y2018 site2">150</td>
+            <td header="y2018 pass">75%</td>
+        </tr>
+
+
+    </table>
+    <figcaption>[표]인증사이트수 통계</figcaption>
+    </figure>
+
+
+</body>
+</html>
