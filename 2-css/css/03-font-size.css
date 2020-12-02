@@ -1,0 +1,30 @@
+/*모든 폰트의 크기를 12px */
+
+*{
+    font-size: 12px;
+}
+
+/*font1 30px*/
+.font1{
+    font-size: 30px;
+}
+
+/* font2 2배 */
+.font2 {
+    font-size: 2em;
+}
+
+/*font3 x를 기준으로 2배*/
+.font3 {
+    font-size: 5ex;
+}
+
+/*font5 vw*/
+.font{
+    font-size: 50vw;
+}
+
+/*font6 vh*/
+.font6 {
+    font-size: 50vh;
+}

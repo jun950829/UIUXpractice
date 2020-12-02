@@ -1,0 +1,16 @@
+/* #hobby::checked */
+#hobby:checked + label {
+    font-size: 50px;
+    color: green;
+}
+
+
+/* type=radio:checked */
+input[type="radio"]:checked + label{
+    background: pink;
+}
+
+/*input id#text에 포커스가 들어가면 배경색이 변경 되도록*/
+#text:focus {
+    background-color: deepskyblue;
+}

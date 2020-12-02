@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>26-form</title>
+
+
+</head>
+
+<body>
+
+    <h1>회원가입</h1>
+    <p>xhtml</p>
+    <form name="member" method="get" action="welcome.html">
+        <p>
+            <label for="uName">이름</label>
+            <input type="text" id="uName" name="uName" placehold="홍길동" required>
+        </p>
+
+        <p>
+            <label>아이디<input type="text" name="uId" required></label>
+        </p>
+
+        <p>
+            <label for="uPassword">비밀번호</label>
+            <input type="password" id="uPassword" name="password" required>
+        </p>
+
+        <p>
+            <span>성별</span>
+            <label for="man">남자</label>
+            <input type="radio" id="man" name="gender">
+            <label for="woman">여자</label>
+            <input type="radio" id="woman" name="gender">
+        </p>
+
+        <p>
+            <span>취미</span>
+            <label for="health">헬스</label>
+            <input type="checkbox" id="health" name="hobby">
+            <label for="design">잠자기</label>
+            <input type="checkbox" id="sleep" name="hobby">
+        </p>
+
+        <p>
+            <label for="uPhoto">사진<input type="file" id="uPhoto" name="uPhoto"></label>
+        </p>
+
+        <p>
+            <label for="uTel">전화번호</label>
+            <input type="text" id="uTel" size="3" maxlength="3"> -
+            <input type="text" title="전화번호 두번재 자리" size="4" maxlength="4"> -
+            <input type="text" title="전화번호 세번재 자리" size="4" maxlength="4">
+        </p>
+
+   <p>
+       <input type="submit" value="전송">
+       <input type="reset" value="취소">
+   </p>
+    </form>
+
+
+
+
+
+</body></html>

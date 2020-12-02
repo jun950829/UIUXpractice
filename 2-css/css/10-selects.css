@@ -1,0 +1,26 @@
+/*ul a 기본글자색을 #333, 마우스가 오버되면 하늘색으로, active 초록*/
+ul>li>a {
+    color:#333;
+}
+
+ul > li > a:hover {
+    color: skyblue;
+}
+
+ul > li > a:active {
+    color:green;
+}
+
+/* ol a 기본글자색 orange 밑줄 제거, 오버되면 밑줄 */
+ol a{
+    color:  orange;
+    text-decoration: none;
+}
+
+ol a:hover{
+    text-decoration: : underline;
+}
+
+ol a:active{
+    color:yellow;
+}

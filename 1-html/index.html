@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>10-anchor</title>
+    <title>33-multimedia-video</title>
 </head>
 <body>
-    <h1>링크기능</h1>
-    <ul>
-        <li>사이트연결 - <a href="http://naver.com" target="_blank">네이버</a></li>
-        <li>파일연결 - <a href="06-notice.html">공지사항-서브페이지</a></li>
-        <li>다운로드 - <a href="1-html.zip">다운로드</a></li>
-        <li>메일보내기 - <a href="mailto:sjc0829@naver.com">메일보내기</a></li>
-        <li>전화걸기 - <a href="tel:010-9982-9031">전화걸기</a></li>
-    </ul>
+    <h1>Video 삽입하기</h1>
+
+    <h2>직접 삽입하기</h2>
+    <video src="videos/example.mp4" controls width ="480" height="360" loop="1" muted="1" playsinline poster="videos/poster.png"></video>
+
+    <h2>iframe 삽입하기</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AcBeyBNd2wg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </body>
 </html>

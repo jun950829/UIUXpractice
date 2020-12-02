@@ -1,0 +1,55 @@
+div {
+    width: 300px;
+    height: 150px;
+    background-color: skyblue;
+    margin: 10px
+}
+
+/*box2 테두리선 두깨 2px 실선 pink*/
+.box2 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: pink;
+}
+
+/*.box3 테두리 10px dashed blue*/
+.box3 {
+    border : 10px dashed blue;
+}
+
+/*.box4 오른쪽에 테두리 5px solid red*/
+.box4 {
+    border-right: 5px solid red;.
+}
+
+/*.box5 모서리 동글게 */
+.box5 {
+    border-radius: 20px;
+}
+
+/*.box6 왼쪽 위 오른쪽 아래만 30px*/
+.box6 {
+/*
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+*/
+
+    border-radius: 30px 0;
+}
+
+.box7 {
+    border-radius: 0px 20px 50px 10px;
+}
+
+.box8 {
+    border-radius: 10px/50px;
+}
+
+.box9  {
+    border: 10px solid rgba(255, 0, 0, 1);
+}
+
+.box10 {
+    outline: 10px solid
+        rgba(255, 100, 0 ,1);
+}

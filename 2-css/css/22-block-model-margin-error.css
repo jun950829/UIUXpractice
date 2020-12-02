@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+header {
+    border-top: 5px solid;
+}
+
+header>.center {
+    background-color: antiquewhite;
+    width: 1200px;
+    margin:0 auto;
+}
+
+.logo {
+    margin: 50px 0 0 100px;
+/*    첫번째 요소에 margin-top값을 적용하면 부모에게 적용된다.*/
+
+/*
+    1. padding
+    2. float을 적용하면 margin이 정상적으로 적용된다.
+*/
+}

@@ -1,0 +1,22 @@
+/*속성 target 속성을 가지는 요소를 찾아서 글자크기를 50px*/
+a[target] {
+    font-size: 50px;
+}
+
+/*href kolon.com을 찾아서 글자색 초록으로 변경*/
+a[href="kolon.com"] {
+    color: green;
+    font-weight: bold;
+}
+
+/*href http 시작하는 요소를 찾아서 배경색*/
+a[href ^= "http"] {
+    background: pink;
+}
+
+
+/*href com으로 끝나는 요소를 찾아서 기울기*/
+a[href $= "com"] {
+    font-style: italic;
+}
+

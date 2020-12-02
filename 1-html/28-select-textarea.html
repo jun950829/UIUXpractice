@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>28-select-textarea</title>
+</head>
+
+<body>
+    <h1>select</h1>
+    <p>여러요소중 하나를 선택할때 사용한다.</p>
+    <form name="member">
+        <p>
+            <label for="tel">전화번호</label>
+            <select id="tel" title="전화번호 첫번째 자리. 숫자를 선택하세요" name="tel">
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="016">016</option>
+            </select>
+
+            <input type="tel" title="전화번호 두번째 자리">-
+            <input type="tel" title="전화번호 세번째 자리">
+        </p>
+
+        <p>
+            <label>이메일을 입력하세요</label>
+            <input type="text"> @
+            <select id="email" name="email" multiple>
+                <option value="naver.com">네이버</option>
+                <option value="daum.net">다음</option>
+                <option value="google.co.kr">구글</option>
+                <option value="zum.net">줌</option>
+                <option value="userEmail">직접입력하기</option>
+            </select>
+        </p>
+
+        <textarea cols="60" rows="10">
+
+        </textarea>
+    </form>
+</body></html>

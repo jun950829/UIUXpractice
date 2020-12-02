@@ -1,0 +1,22 @@
+/*첫번째 있는 dd한테 배경주기*/
+dl > dd:first-of-type {
+    background: green;
+}
+
+/*마지막에 있는 dd한테 글자 크기*/
+
+/*
+dl>dd:last-child{
+    font-size: 50px;
+}
+*/
+
+dl > dd:last-of-type {
+    font-size: 50px;
+}
+
+
+/*설명3에 밑줄*/
+dl > dd:nth-of-type(3) {
+    text-decoration: underline;
+}

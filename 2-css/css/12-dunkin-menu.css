@@ -1,0 +1,64 @@
+/*li앞에 장식 제거하기*/
+#nav >li {
+    list-style: none;
+}
+
+
+#nav>li>a{
+    display: block;
+    height: 12px;
+    background-image: url(../images/gnb_menu.png);
+    text-indent: -9999px;
+}
+
+/*menu1 너비107 위치 70 322*/
+#nav>.menu1>a{
+    width : 110px;
+    background-position: -70px -320px;
+}
+
+#nav>.menu1>a:hover{
+    background-position: -70px -380px;
+}
+
+/*menu2 너비 42*/
+#nav>.menu2>a{
+    width : 48px;
+    background-position: -70px -22px;
+}
+
+#nav>.menu2>a:hover{
+    background-position: -140px -22px;
+}
+
+#nav>.menu3>a{
+    width : 54px;
+    background-position: -70px -82px;
+}
+
+#nav>.menu3>a:hover{
+    width : 56px;
+    background-position: -140px -83px;
+}
+
+#nav>.menu4>a{
+    width : 56px;
+    background-position: -70px -142px;
+}
+
+#nav>.menu4>a:hover{
+    width : 56px;
+    background-position: -140px -142px;
+}
+
+#nav>.menu5>a{
+    width : 56px;
+    background-position: -70px -202px;
+}
+
+#nav>.menu5>a:hover{
+    width : 56px;
+    background-position: -140px -202px;
+}
+
+

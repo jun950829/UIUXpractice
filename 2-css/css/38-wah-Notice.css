@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+
+body {
+    font-family: "", sans-serif;
+    font-size: 12px;
+    color:#444;
+}
+
+.noticeWrap {
+    margin: 10px;
+    width: 493px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: url(../images/wah_notice.JPG) no-repeat 30px center;
+}
+
+.noticeWrap>.title{
+    font-size: 18px;
+    margin: 25px 0 0 30px;
+}
+
+.notice {
+    margin: 20px 0 0 150px;
+}
+
+.notice>li>a {
+    display: inline-block;
+    width: 200px;
+    background:pink;
+    text-decoration: none;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: url(../images/bluet02.gif) no-repeat;
+
+}
+
+.notice>li>span {
+    margin-left: 50px;
+}

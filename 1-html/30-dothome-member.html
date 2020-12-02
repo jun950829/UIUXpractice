@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>30-dothome-member</title>
+    <style>
+        #textbox {
+            color: darkgray;
+        }
+
+        ;
+
+        #submit {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="member" method="get" action="">
+        <table>
+            <tr>
+                <td>*p는 필수 입력 사항입니다.</td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>로그인 정보 입력</legend>
+                        <table>
+                            <tr>
+                                <th><label for="uId">*아이디</label></th>
+                                <td><input type="text" id="uId" name="uId" placeholder="아이디 입력(필수)" required> <button>중복확인</button></td>
+                            </tr>
+                            <tr>
+                                <th><label for="uPassword">*비밀번호</label></th>
+                                <td><input type="password" id="uPassword" name="uPassword" placeholder="비밀번호 입력(필수)" required></td>
+                            </tr>
+                            <tr>
+                                <th><label for="uPasswordcheck">*비밀번호확인</label></th>
+                                <td><input type="password" id="uPasswordcheck" name="uPasswordcheck" placeholder="비밀번호 확인(필수)" required></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>회원 정보 입력</legend>
+                        <table>
+                            <tr>
+                                <th><label for="companyName">*이름(회사명)</label></th>
+                                <td>
+
+                                    <input type="text" id="companyName" name="companyName" placeholder="이름(회사명)을 입력해주세요.">
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td colspan="2">
+                                    <p><strong>※회사명 기입시 체크 사항</strong></p>
+                                    <div style="background-color: lightgray;">
+                                        <p>- 국내 상호는 특수문자 ( ) 괄호만 입력이 가능합니다.</p>
+                                        <p>- 국외 상호인 경우 반드시 영문으로 입력해주세요</p>
+                                        <p>- 국외 상호는 특수문자 &amp;-`.,· 만 입력이 가능합니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th><label for="tel">*연락처</label></th>
+                                <td><input type="tel" id="tel" name="tel" placeholder="연락처(필수)" required> -
+                                    <input type="tel" id="tel" name="tel" placeholder="연락처(필수)" required> -
+                                    <input type="tel" id="tel" name="tel" placeholder="연락처(필수)" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><label for="email">*이메일</label></th>
+                                <td><input type="text" id="email" name="email" placeholder="기본 이메일(필수)"> @
+                                    <input type="text" title="이메일 선택">
+                                    <select title="이메일 선택">
+                                        <option value="">직접 입력</option>
+                                        <option value="naver.com" selected>naver.com</option>
+                                        <option value="google.co.kr">google.co.kr</option>
+                                        <option value="daum.net">daum.net</option>
+                                        <option value="nate.com">nate.com</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>상품 및 이벤트 정보 수신 동의</legend>
+                        <p>서비스만료 및 서비스정보에 관련된 내용은 수신동의 여부와 관계없이 발송됩니다.
+                        </p>
+                        <div>
+                            <label for="email_agree"><input type="checkbox" id="email_agree" value="이메일">이메일</label><label for="message_agree"><input type="checkbox" id="message_agree" value="이메일">문자</label>
+                        </div>
+
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>휴면전환 기간</legend>
+                        <p>이 조건에 따라 계정을 휴면 전환 함으로써 고객님의 소중한 개인정보를 안전하게 관리합니다.</p>
+                        <div>
+                            <label for="1year_period"><input type="radio" id="1year_period" value="이메일" name="period">1년</label><label for="imformation_period"><input type="radio" id="imformation_period" value="이메일" name="period">탈퇴시까지 정보유지</label>
+                        </div>
+
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><input type="text" id="secret" placeholder="보안문자를 입력해주세요"></p>
+
+                    <p><input type="submit" id="submit" value="가입하기"></p>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body></html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>34-table-practice</title>
+    <style>
+        table, tr, th, td {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>수하물요금표</h1>
+
+    <figure>
+        <table>
+           <caption>에어서울 수하물 요금표</caption>
+            <thead>
+                <th rowspan="2" id="sort">구분</th>
+                <th colspan="2" id="sale" >정규/할인 운임</th>
+                <th colspan="2" id="specialsale">특가운임(프로코션 특가운임)</th>
+
+            <tr>
+                <th id="adult1">성인/소아</th>
+                <th id="baby1">유아</th>
+                <th id="adult2">성인/소아</th>
+                <th id="baby2">유아</th>
+            </tr>
+            </thead>
+            <tr>
+                <th id="not_miju">미주노선 제외</th>
+                <td headers="not_miju sale adult1">무게 15kg</td>
+                <td rowspan="2" headers="not_miju sale baby1">무게 10kg</td>
+                <td colspan="2" headers="not_miju specialsale">수하물없음</td>
+            </tr>
+            <tr>
+                <th id="miju">미주노선</th>
+                <td headers="miju sale adult1">무게 23kg</td>
+                <td headers="miju specialsale adult2">정규/할인 운임과 동일</td>
+                <td headers="miju specialsale baby2">정규/할인 운임과 동일</td>
+            </tr>
+        </table>
+        <figurecaption>
+            에어서울 위탁화물 변경:2018년2월 발권 기준
+        </figurecaption>
+    </figure>
+</body>
+</html>

@@ -1,0 +1,29 @@
+li {
+    list-style: none;
+}
+
+/* 첫번째 li를 선택해서 글자를 크게 */
+.list > li:first-child {
+    font-size: 50px;
+}
+
+/* 맨 마지막 li를 선택해서 밑줄 */
+.list > li:last-child {
+    text-decoration: underline;
+}
+
+/* 3번째 li에 굵게 색상 */
+.list > li : nth-child(3) {
+    font-weight: bold;
+    color: red;
+}
+
+/* 짝수번째 배경을 pink */
+.list > li:nth-child(2n) {
+    background: pink;
+}
+
+/* 홀수번째 배경 green */
+.list > li:nth-child(2n+1) {
+    background: green;
+}

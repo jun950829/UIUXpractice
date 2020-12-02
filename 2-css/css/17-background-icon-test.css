@@ -1,0 +1,31 @@
+.sns > li {
+    list-style: none;
+}
+
+.sns > li > a {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.sns > .insta > a {
+    background-image: url(../images/icon_sns_instar.png);
+    background-repeat: none;
+    background-position: -50px 0;
+
+}
+
+.sns > .insta > a:hover {
+    background-position: 0px 0px;
+}
+
+
+.sns > .facebook > a {
+    background-image: url(../images/icon_sns_facebook.png);
+    background-repeat: none;
+    background-position: -50px 0;
+}
+
+.sns > .facebook > a:hover {
+    background-position: 0px 0px;
+}
