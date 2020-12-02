@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    color: #4c4c4c;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-decoration: none;
+}
+
+.center {
+    width: 1200px;
+    margin: 0px auto;
+/*    background-color: antiquewhite;*/
+    position: relative;
+}
+
+/*
+.Bancenter {
+    width: 1500px;
+    height: 0px auto;
+    position: relative;
+
+}
+*/
+
+header {
+    border-top: 5px solid darkgreen;
+     border-bottom: 0.5px solid lightgray;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.topRight {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    line-height: 30px;
+    padding: 0 20px;
+
+}
+.topRight>li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.topRight>li>a {
+    display: block;
+    color: gray;
+}
+
+.topRight>li:first-child:after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 2px;
+    background: gray;
+    position: absolute;
+    left: 77px;
+    bottom: 13px;
+}
+
+.topRight>li:last-child> a {
+    background: url(../images/icon_utill_global.png) no-repeat;
+    background-position: 0px -0px;
+    width: 30px;
+    height: 30px;
+    text-indent: -99999px;
+}
+
+
+
+/* nav */
+
+#nav {
+/*    background-color: azure;*/
+    width: 1200px;
+    position: relative;
+
+}
+
+#nav > li {
+    display: inline-block;
+    width: 190px;
+    text-align: center;
+    position: relative;
+}
+
+#nav > li > a {
+    display: block;
+    color : #333;
+}
+
+#nav>li>div {
+    background-color: white;
+    padding: 15px 0;
+}
+
+#nav>li>div>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nav>li:hover>div>a{
+    color: darkgreen;
+}
+
+.bg{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: white;
+    top:148px;
+    z-index: 99;
+}
+
+/*sub*/
+.subMenu {
+    display: none;
+    position:absolute;
+/*    background-color: deepskyblue;*/
+    width: 100%;
+    padding-top: 20px;
+    line-height: 2;
+    z-index: 100;
+}
+
+.subMenu >li > a {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+        color : gray;
+}
+
+
+nav:hover .subMenu,
+nav:hover .bg
+{
+    display: block;
+}
+
+
+/*container*/
+#container > .mainWrap > .mainBg {
+    width: 1900px;
+    height: 490px;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+
+
+.B1 {
+    display: block;
+    left: 0px;
+    position: absolute;0
+}
+
+.B2 {
+    display: block;
+    left : 10000px;
+    position: absolute;
+}
+
+.B3 {
+    display: block;
+    left : 20000px;
+    position: absolute;
+}
+
+.B4 {
+    display: block;
+    left : 30000px;
+    position: absolute;
+}
+
+.B5 {
+    display: block;
+    left : 40000px;
+    position: absolute;
+}
+
+.B6 {
+    display: block;
+    left : 50000px;
+    position: absolute;
+}
+/*
+
+#container > .mainWrap > li{
+    display: none;
+}
+#container > .mainWrap {
+    display: inline-block;
+    position: absolute;
+}
+
+
+*/
+
+
+
+

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {list-style: none;}
+
+
+#wrap {
+    border: 5px solid black;
+    background-color: deepskyblue;
+/*    height: 204px;*/
+/*    float: left;*/
+/*    overflow: hidden;*/
+
+}
+
+
+#wrap:after {
+    content: "1111";
+    display: block;
+    clear: both;
+}
+
+/* 모든 자식이 float 되면 부모는 높이 값이 사라진다. */
+
+/* 부모 찾기 */
+
+/* 1. height를 준다. : 자식요소들의 높이값을 일일히 계산, 비교 */
+
+/* 2. 부모요소에 float을 준다. : 부모의 너비는 자식의 너비만큼만 */
+
+/* 3. overflow: hidden - 서브메뉴 같은 div 들을 볼 수가 없다. */
+
+/* 4. after
+부모선택::after {
+    content="";
+    display : block;
+    clear : both;
+앞형제에 준 float의 영향에서 벗어나라
+
+
+*/
+
+
+#wrap>div{
+    border: 2px solid #555;
+}
+
+#wrap>.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    float: left;
+}
+
+#wrap>.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    float: left;
+}
+
+#wrap>.box3 {
+    width: 250px;
+    height: 150px;
+    background-color: darksalmon;
+    float: left;
+}
+
+#wrap>.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    float: left;
+}

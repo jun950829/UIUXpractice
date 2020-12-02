@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    color: #4c4c4c;
+    line-height: 1;
+    letter-spacing: -0.05em;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.center {
+    width: 1000px;
+    margin: 0px auto;
+    background-color: white;
+    position: relative;
+}
+
+
+/*header*/
+
+header {
+    border-top: 3px solid pink;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.logo {
+    text-align: center;
+    padding-top : 15px;
+}
+
+
+.logo img {
+        width: 100px;
+}
+
+
+.leftTop {
+    position: absolute;
+    top: 50px;
+    left:0;
+}
+
+.leftTop > .topSNS > li {
+
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+.leftTop > .topSNS > li:nth-child(1) > a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icon_facebook.png) no-repeat;
+    text-indent: -99999px;
+
+}
+
+
+.leftTop > .topSNS > li:nth-child(2) > a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icon_twitter.png) no-repeat;
+    text-indent: -99999px;
+
+}
+
+
+.leftTop > .topSNS > li:nth-child(3) > a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icon_blog.png) no-repeat;
+    text-indent: -99999px;
+
+}
+
+
+.leftTop > .topSNS > li:nth-child(4) > a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icon_instgram.png) no-repeat;
+    text-indent: -99999px;
+
+}
+
+
+.leftTop > .topSNS > li:nth-child(5) > a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icon_youtube.png) no-repeat;
+    text-indent: -99999px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
